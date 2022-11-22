@@ -1,0 +1,135 @@
+.loginSignup{
+    position: fixed;
+    background: #FFFFFF;
+box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+width: 736px;
+height: 513px;
+z-index: 100000;
+/* top: 10%;
+left: 30%; */
+transform: translate(50%,30%);
+transform: translateX(max-device-width);
+/* position:relative; */
+
+flex-direction: column;
+justify-content: space-between;
+}
+.loginheadin__main{
+    padding: 17px 58px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+background: #EFFFF4;
+border-radius: 8px 8px 0px 0px;
+
+text-align: center;
+
+color: #008A45;
+}
+.login__manibody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 408px;
+}
+/* ////////////////////////////////////////////////////////////////////////SignUp////////////////////////////////////// */
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.SignUp__form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.SignUp__Name{
+    display: flex;
+
+}
+.SingUp__Password__Container{
+    display: flex;
+}
+.SignupwithFacebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignupwithGoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignUp__FirstName,.SignUp__LastName,.SignUp__Email,.Signup__Password,.ConfirmPassword{
+    padding: 15px 12px;
+    background-color: #F7F8FA;
+    border: 1px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px 2px 0px 0px;
+width: 320px;
+}
+.SignUp__LastName,.SignUp__FirstName{
+width: 160px;
+}
+.CreateAccount{
+    text-align: center;
+    background: #2F6CE5;
+border-radius: 20px;
+font-weight: 600;
+font-size: 14px;
+color: white;
+line-height: 16px;
+padding: 12px 110px;
+margin-top: 19px;
+cursor: pointer;
+}
+.SignupwithFacebook,.SignupwithGoogle{
+    /* text-align: center; */
+    background: #FFFFFF;
+    width: 320px;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+padding: 12px;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+cursor: pointer;
+margin-top: 19px;
+}
+/* /////////////////////////////////////////SignUpHeading////////////////////////// */
+.SignUpHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.SignUpHeading > p> span{
+    color:#2F6CE5;
+    cursor: pointer;
+}
+/* //////////////// */
+.forgetPass{
+    padding: 12px;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+cursor: pointer;
+margin-top: 19px;
+width: 320px;
+text-align: center;
+}
+@media screen and (max-width:1400px) {
+    .loginSignup{
+        position: absolute;
+        transform: translate(30%,50%);
+    }
+}
+@media screen and (max-width:1100px) {
+    .loginSignup{
+        display: none;
+    }
+}

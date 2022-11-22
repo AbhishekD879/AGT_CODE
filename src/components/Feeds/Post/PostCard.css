@@ -1,0 +1,111 @@
+.postcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+.postcard__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.postcard__Reach{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.postcard__viewsContainer{
+    display: flex;
+    align-items: center;
+}
+.postcard__imgContainer > img{
+    object-fit: contain;
+    width: 100%;
+}
+.postcard__infocontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.postcart__userAvatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.postcard__views{
+    display: flex;
+    align-items: center;
+}
+.postcard__shareIcon{
+    background: #EDEEF0;
+border-radius: 2px;
+margin-left: 40px;
+}
+.postcard__infocontainer > p{
+    color:  #5C5C5C;
+    margin-top: 12px;
+}
+.postCard__locationContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+
+}
+.postcard__Loc{
+    display: flex;
+    align-items: center;
+  
+}
+.postcard__Loc > p{
+    margin-left: 5px;
+    font-weight: 500;
+}
+.postcard__desi{
+    margin-right: 44.77px;
+    font-weight: 500;
+}
+.postCard__desi__link{
+    background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+box-sizing: border-box;
+border-radius: 10px;
+text-align :center;
+padding: 9px;
+margin-top: 1rem;
+}
+.postcard__views > p{
+    margin-left: 8.75px;
+}
+.post__moreOption{
+    width: 160px;
+    height: 102px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 4px;
+    z-index: 2;
+}
+.moreOption{
+    margin-left: 12px;
+    width: 90%;
+    cursor: pointer;
+}
+.moreOption:hover{
+    background-color: lightgray;
+}
+.active{
+    display: none;
+}
+.postcard__moreOption__buttongrp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

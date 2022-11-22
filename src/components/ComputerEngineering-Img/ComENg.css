@@ -1,0 +1,45 @@
+.CompEng{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url("./Compimg.png");
+    height: 440px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 15rem;
+    padding-bottom: 5rem;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    
+}
+.CompEng__Info{
+    color: white;
+}
+.CompEng__joinNow{
+   display: none;
+
+}
+@media screen and (max-width:600px) {
+    .CompEng__joinNow{
+        position: absolute;
+        top: 5%;
+        right: 3%;
+        color: white;
+        padding: 6px 8px;
+        border: 1px solid white;
+        border-radius: 4px;
+        display: block;
+        cursor: pointer;
+    
+    }
+    .CompEng__joinNow:hover{
+        background-color: white;
+        color: black;
+    }
+}
+@media screen and (max-width:900px) {
+    .CompEng{
+        padding: 50px;
+    }
+}

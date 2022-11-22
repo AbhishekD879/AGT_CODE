@@ -1,0 +1,40 @@
+<div className="postcard">
+        <div className="postcard__imgContainer">
+            <img src={cardImg} />
+        </div>
+            <div className="postcard__infocontainer">
+            <h5>✍️ Article</h5>
+            <div className="postcard__title">
+                <h3>What if famous brands had regular fonts? Meet RegulaBrands!</h3>
+                <IconButton><MoreHorizIcon /></IconButton>
+            </div>
+            <div className="postCard__locationContainer">
+                <div className="postcard__desi">
+                    <p>innovation</p>
+                </div>
+                <div className="postcard__Loc">
+                    <RoomOutlinedIcon />
+                    <p>loc</p>
+                </div>
+            </div>
+            <div className="postCard__desi__link">
+                JobLink
+            </div>
+            <p>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+            <div className="postcard__Reach">
+                <div className="postcart__userAvatar">
+                    <IconButton><Avatar/></IconButton>
+                    <p>Sarthak Kamra</p>
+                </div>
+                <div className="postcard__viewsContainer">
+                    <div className="postcard__views" >
+                        <RemoveRedEyeOutlinedIcon />
+                        <p>1.4k views</p>
+                    </div>
+                    <div className="postcard__shareIcon">
+                    <IconButton><ShareIcon /></IconButton>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>

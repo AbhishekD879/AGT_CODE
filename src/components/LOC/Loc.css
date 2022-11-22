@@ -1,0 +1,70 @@
+.loc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-left: 103px;
+    padding-top: 45px;
+    height: 50vh;
+    width: 240px;
+}
+.loc__Alert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.recommondedgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 20vh;
+}
+.recommondedgroup__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    
+}
+.recommondedgroup__Shown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+.groupshow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.loc__container{
+    display: flex;
+    margin-left: -1.5rem;
+}
+.loc__container > .MuiTextField-root > .MuiInput-root > input{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.recommondedgroup__title >p{
+    margin-left: 4.75px;
+}
+.groupshow >h5{
+    margin-left: 12px;
+}
+.recommonded__followBtn{
+    background: #EDEEF0;
+border-radius: 14px;
+padding: 4px 12px;
+font-size: 12px;
+cursor: pointer;
+}
+.loc__showmore{
+    text-align: end;
+}
+.followed{
+    background-color: black;
+    color: white;
+}

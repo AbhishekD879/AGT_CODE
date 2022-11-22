@@ -1,0 +1,69 @@
+.groupNav__navbar{
+    display: flex;
+    margin-top: 28px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.groupNav__navLink{
+    margin: 0 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.groupNav__buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.groupNav__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.grpnavWrite{
+    background-color: #EDEEF0;
+    font-weight: 500;
+}
+.grpnavWrite:hover{
+    background-color: darkgray;
+}
+.grpnavjoinGroup{
+    background-color: #2F6CE5;
+    color: white;
+    border-radius: 4px;
+}
+.grpnavjoinGroup:hover{
+    background-color: darkblue;
+}
+.groupNav__navLink:hover{
+    color: lightgray;
+}
+.groupNav__post{
+    display: none;
+}
+.groupNav__filter{
+    display: none;
+}
+@media screen and (max-width:1240px) {
+    .groupNav__post{
+        display: block;
+    }
+    .groupNav__filter{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 8px;
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+    .groupNav__buttonContainer{
+        display: none;
+    }
+    .groupNav__navLink__holder{
+        display: none;
+    }
+}
